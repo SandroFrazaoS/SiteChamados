@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <br>
+  <br>
+  Site de Chamados
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h4 align="center">
+   Desenvolvido com React + NodeJS + Firebase 
+</h4>
 
-## Available Scripts
+<h6 align="center">
+  bootcamp SujeitoProgramador
+</h6>
 
-In the project directory, you can run:
+<br/>
 
-### `yarn start`
+<p align="center">
+  <a href="#Pre-Requisitos">Pre-requisitos</a> |
+  <a href="#Instalação">Instalação</a> |
+  <a href="#Usabilidade">Usabildiade</a>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Pre-Requisitos
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* [React](https://pt-br.reactjs.org/)
+* [Node.JS](https://nodejs.org/)
+* [Yarn](https://classic.yarnpkg.com/) or [npm](https://www.npmjs.com/get-npm)
+* [FireBase](https://firebase.google.com/?hl=pt)
 
-### `yarn test`
+# Instalação
+```
+# Primeiro clone o repositorio do Git para seu computador. Execute o comando; 
+git clone https://github.com/SandroFrazaoS/SiteChamados.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Acesse a pasta criado atraves do comando; 
+cd SiteChamados
 
-### `yarn build`
+# Instale todas as dependencias do projeto, acesse a pasta SiteChamados e execute o comando;
+yarn
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Para start do site execute dentro da pasta SiteChamados o comando;
+yarn start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Usabilidade
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+O site de chamados foi desenvolvido em react utilizando banco de dados do firebase. O sistema permite criar um usuario com verificação de autenticação, cadastrar clientes, cadastrar chamados, alterar foto do usuario, nome e email.
 
-### `yarn eject`
+As telas são responsivas sendo possivel acessar pelo celular.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Tela de principal.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![1][tela1]
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Tela de dashboar - chamados registrados
+![2][tela2]
 
-## Learn More
+Tela de detalhe do chamado
+![3][tela3]
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Tela de configuração do usuario
+![4][tela4]
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Tela de cadastro de clientes.
+![5][tela5]
 
-### Code Splitting
+Tela responsiva 
+![6][tela6]
+![7][tela7]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[tela1]: Tela1.png
+[tela2]: Tela2.png
+[tela3]: Tela3.png
+[tela4]: Tela4.png
+[tela5]: Tela5.png
+[tela6]: Tela6.png
+[tela7]: Tela7.png
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
