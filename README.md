@@ -65,8 +65,10 @@ Tela de configuração do usuario
 Tela de cadastro de clientes.
 ![5][tela5]
 
-Tela responsiva 
+
+Tela responsiva. 
 ![6][tela6]
+
 ![7][tela7]
 
 [tela1]: Tela1.png
