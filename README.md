@@ -54,20 +54,26 @@ Tela de principal.
 ![1][tela1]
 
 Tela de dashboar - chamados registrados
+
 ![2][tela2]
 
 Tela de detalhe do chamado
+
 ![3][tela3]
 
 Tela de configuração do usuario
+
 ![4][tela4]
 
 Tela de cadastro de clientes.
+
 ![5][tela5]
 
+Tela responsiva 1. 
 
-Tela responsiva. 
 ![6][tela6]
+
+Tela responsiva 2. 
 
 ![7][tela7]
 
